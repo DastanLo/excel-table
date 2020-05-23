@@ -1,11 +1,11 @@
-import {ExcelComponent} from '../../core/ExcelComponent';
+import {ExcelComponent} from '@core/ExcelComponent'
 
 export class Header extends ExcelComponent {
-    static className = 'excel__header';
+  static className = 'excel__header'
 
-    toHTML() {
-        return ` 
-    <input type="text" class="input" value="Новая таблица" />
+  toHTML() {
+    return `
+      <input type="text" class="input" value="Новая таблица" />
 
       <div>
 
@@ -18,6 +18,6 @@ export class Header extends ExcelComponent {
         </div>
 
       </div>
-`
-    }
+    `
+  }
 }
